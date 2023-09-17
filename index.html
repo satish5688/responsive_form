@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-capitalize fw-bolder">persnal info form</h1>
+      <p>please fill all the required filds</p>
+      <form class="row row-cols-md-2 row-cols-sm-1">
+        <div class="mb-3 ">
+          <input type="text" class="form-control border-2 border-dark" placeholder="Firstname*" required />
+        </div>
+        <div class="mb-3">
+          <input type="text" class="form-control border-2 border-dark" placeholder="Lastname*" required/>
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control border-2 border-dark" placeholder="Email*" required/>
+        </div>
+        <div class="mb-3">
+          <input type="number" class="form-control border-2 border-dark" placeholder="Phone*" required/>
+        </div>
+        <div class="mb-3">
+          <input type="date" class="form-control border-2 border-dark" placeholder="Date of Birth *" required />
+        </div>
+        <div class="mb-3">
+          <input type="address" class="form-control border-2 border-dark" placeholder="Address*" required />
+        </div>
+        <div class="form-check p-4">
+            <input class="form-check-input p-3 mx-2" type="checkbox" value="" id="flexCheckDefault">
+            <label class="p-2" for="flexCheckDefault">
+              Above mention detainls are correct
+            </label>
+          </div>
+      </form>
+
+      <button class="btn btn-danger">Submit</button>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
